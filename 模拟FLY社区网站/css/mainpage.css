@@ -1,0 +1,349 @@
+*{margin: 0;padding: 0;}
+			ul,li{list-style: none;}
+			a{text-decoration:none;}
+			img{border:0;}
+			body{
+				background: #f2f2f2;
+			}
+			#title{
+				width: 100%;
+				height: 63px;
+				background: #393d49;
+				position: fixed;
+				left: 0;
+				top:0;
+				z-index: 100;
+				}
+			#nav{height: 50px;
+			     background: #fff;
+			     margin-bottom: 16px;
+			     margin-top: 63px;
+			      }
+			#top{
+				height: 354px;
+				width: 1350px;
+				background: #F2F2F2;
+				margin: 0 auto;
+			}
+			#tleft{
+				width: 860px;
+				height: 354px;
+				background: #fff;
+				margin-right: 16px;
+				
+			}
+			#trbttom,#trtop{
+				width: 380px;
+				background: #fff;
+			}
+			#trtop{
+				height: 202px;
+				margin-bottom: 16px;
+				
+			}
+			#trbttom{
+				height: 136px;
+				position: relative;
+			}
+			#trtop,#trbttom,#tleft{
+				float: left;
+			}
+			#logimg{
+				margin-left: 142px;
+				line-height: 61px;
+				margin-right: 75px;
+			}
+			#title ul li{
+				float:left;
+				
+			}
+			#title ul li img{
+				vertical-align: middle;
+			}
+			#title ul li a{
+				color: #fff;
+				font-size: 14px;
+				}
+			.lmar{
+				margin-right: 52px;	
+				height: 61px;
+			}
+			.op{
+				opacity: 0.8; transition:0.5s;
+			}
+			.op:hover{
+				opacity:1;
+			}
+			.kuang{
+				margin-right: 416px;
+			}
+			.option{
+				line-height: 61px;
+			}
+			#nav ul li{
+				float:left;
+				line-height: 48px;
+				margin-right: 43px;
+			}
+			
+			#nav ul li a{ 
+				font-size: 14px;
+				color: #333333;
+				transition: 0.3s;
+			}
+			#indx{
+				margin-left: 280px;
+			}
+			#nav ul li a#aindex{
+				color:#5fb878;
+			}
+			#nav ul li a:hover{
+				color:#009688;
+			}
+			#rart a#rarta{
+				padding: 10px 15px;
+				background: #009688;
+				color: #fff;
+				border-radius:2px; /*加圆角*/
+				margin-left:450px ;
+			}
+			#rart a#rarta:hover{
+				background: #33aba0;
+			}
+			#nav ul li#rart{
+				margin-right: 360px;
+				float: right;
+			}
+			#zhiding{
+				line-height: 50px;
+				font-size: 14px;
+				text-indent: 22px; /*缩进*/
+			}
+			.artlist{
+				position: relative;
+				border-top:1px dashed #d5d5d5 ;
+				height: 75px;
+			}
+			.artlist div,.artlist div img{
+				width: 45px;
+				height: 45px;
+			}
+			.artlist div{
+				position: absolute;
+				left: 15px;
+				top: 15px;
+			}
+			.arttitle{
+				position: absolute;
+				left: 75px;
+				top: 17px;
+				font-size: 16px;
+				
+			}
+			.arttitle span{
+				font-size: 12px;color: #5FB878; padding: 1px 5px;border: 1px solid #5FB878;border-radius:2px ;
+			}
+			.arttitle a{
+				color: #000;
+			}
+			.rattitle a:hover{
+				color:#009688;
+				
+			}
+			.artinfo{
+				position: absolute;
+				left: 75px;
+				bottom:15px;
+			}
+			.artinfo a,.artinfo span{
+				font-size: 12px;
+				color: #999;
+				margin-right:20px ;
+				
+			}
+			.artinfo a:hover{
+				color:#009688;
+			}
+			.artinfo span.kissnum{
+				color: #ff5762;
+			}
+			.artjingtie{
+				position: absolute;
+				left:800px;
+				top: 17px;
+				font-size: 16px;}
+			.artjingtie span{ font-size: 12px;color: #FFFFFF;padding: 1px 5px;border: 1px solid red;border-radius:2px ; background: red;}
+		    .xiaoxinum{
+		    	position: absolute;
+		    	left: 800px;
+		    	bottom: 13px;
+		    	color: #999;
+		    }
+		    .trbottomq{
+		    	width: 55px;
+		    	padding: 0 15px;
+		    }
+		    .q{
+		    	width: 55px;
+		    	border-left:1px solid #d5d5d5 ;
+		    	padding: 0 15px;
+		    	color: #9bb4ed;
+		    }
+		    .q:hover{
+		    	color: #009688;
+		    	cursor: pointer;
+		    }
+		    #qiandaoli{
+		    	position: absolute;
+		    	left: 0;
+		    	line-height: 48px;
+		    	padding: 15px;
+		    }
+		    #jinrili{
+		    	width:380px ;
+		    	position: absolute;
+		    	top:55px;
+		    	padding: 0;
+		    	border-top:1px dashed #d5d5d5 ;
+		    }
+		    #jiriq{
+		    	position: absolute;
+		    	height: 40px;
+		    	width: 95px;
+		    	line-height: 40px;
+		    	border-radius: 2px;
+		    	background: #ff5722;
+		    	font-size: 16px;
+		    	color: #fff;
+		    	left: 144px;
+		    	top: 23px;
+		    	text-align: center;
+		    }
+		    #content{
+		    	height: 1700px;
+				width: 1350px;
+				background: #F2F2F2;
+				margin: 0 auto;
+				
+		    }
+		    /*----------综合-------*/
+		    #zonghe{
+		   	    width: 860px;
+				height: 1000px;
+				background: #fff;
+				margin-right: 16px;
+				margin-top: 18px;
+				position: relative;
+		   }
+		    /*-----------周榜--------*/
+		   #week{
+		   	width: 380px;
+		   	height: 600px;
+		   	margin-top: 18px;
+		   	background: #fff;
+		   }
+		   #zonghe,#week{
+		   	float: left;
+		   }
+		   #weeksp{
+		   	line-height: 50px;
+			font-size: 16px;
+			margin-left:22px ;
+		   }
+		   #line{
+		   	width: 380px;
+		   	border-bottom:1px dashed #d5d5d5 ;
+		   }
+		   #week ul{
+		   	margin: 0 auto;
+		   	width: 400px;
+		   	margin-left: 20px;
+		   }
+		   #week ul li{
+		   	margin-top: 11px;
+		   	margin-right: 24px;
+		   	position: relative;
+		   	float: left;
+		   }
+		   #week img{
+		   	height: 67px;
+		   	width: 66px;
+		   	border-radius: 2px;
+		   }
+		   .bg{
+		   	width: 67px;
+		   	height: 20px;
+		   	position:absolute ;
+		   	top: 46px;
+		   	opacity:0.4;
+		   	background: #ccccb8;
+		   }
+		   #wtext{
+		   	width: 67px;
+		   	height: 20px;
+		   	position:absolute ;
+		   	font-size: 14px;
+		   	color: #fff;
+		   	top: 46px;
+		   	text-align: center;
+		   }
+		   #wtext2{
+		   	font-size: 14px;
+		   	line-height: 24px;
+		   	text-align: center;
+		   	width: 67px;
+		   }
+		   /*-----------综合------*/
+		  #zongheli{
+		    	line-height: 48px;
+		    	height: 50px;
+		    	margin-top:0 ;
+		    }
+		   
+		    .zq{
+		    	width: 55px;
+		    	border-left:1px solid #d5d5d5 ;
+		    	padding: 0 15px;
+		    	line-height: 48px;
+		    	text-indent: 20px;
+		    }
+		    .zq:hover{
+		    	color: #009688;
+		    	cursor:pointer;
+		    }
+		    #zonghes{
+		    	width: 55px;
+		    	padding: 0 15px;
+		    	color: #009688;
+		    	cursor:pointer;
+		    }
+		    .thisweek{
+		    	height: 400px;
+		    	width: 380px;
+		    	background: #fff;
+		    	float: left;
+		    	margin-top: 18px;
+		    }
+		    .thisweek-this,.trtop-title{
+		    	height: 50px;
+		    	width: 380px;
+		    	border-bottom: 1px dashed #D5D5D5;
+		    	line-height: 50px;
+		    	text-indent: 20px;
+		    	font-size: 17px;
+		    	
+		    }
+		    .thisweek-li{
+		    	margin-top: 15px;
+		    	line-height: 20px;
+		    	text-indent: 20px;
+		    }
+		    .trtop-table{
+		    	margin: 20px 19px;
+		    }
+		    .trtop-table td{
+		    	border: 1px solid #D5D5D5;
+		    	height: 35px;
+		    	width: 180px;
+		    	text-align: center;
+		    }
